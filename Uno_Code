@@ -21,7 +21,7 @@ digitalWrite(9,r2);
 digitalWrite(10,r3); 
 digitalWrite(11,r4); 
 }
-
+//high=1, low=0
 void loop()
 {
   if(Serial.available() > 0)  // Send data only when you receive data:
